@@ -1,0 +1,40 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+}
+
+#enviar {
+    background: #00FF00;
+    cursor: pointer;
+}
+
+#nenviar {
+    background: #FF0000;
+    cursor: pointer;
+}
+
+#enviar,#nenviar:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#warn {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
