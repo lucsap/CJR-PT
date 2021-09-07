@@ -8,17 +8,17 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <div class="">
+    <div class="formulario">
         <div class="cabecalho">
             <h2>Cadastro</h2>
         </div>
-        <div class="">
-            <form action="">
+        <div class="body">
+            <form action="input">
                 <label for="email" class="Llabel">Email: </label>
                 <input id="email" type="email" class="Linput" required/>
 
                 <label for="name" class="Llabel">Nome: </label>
-                <input id="name" type="text" class="Linput"/>
+                <input id="name" type="text" class="Linput" required/>
 
                 <label for="sname" class="Llabel">Sobrenome: </label>
                 <input id="sname" type="text"/><br>
@@ -33,7 +33,7 @@
                 <input id="date" type="date"/>
 
                 <label for="file" class="Llabel">Envie uma foto para o perfil: </label>
-                <input id="file" type="file"/><br><br>
+                <input id="file" type="file" accept=".jpg, .png, .jpeg"/><br><br>
 
                 <label for="termos" class="Llabel">Aceito os termos e condições: </label>
                 <input id="termos" type="checkbox"/><br>
