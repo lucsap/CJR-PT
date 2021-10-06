@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Eu quero mudar de país</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Agora eu sou um Deus do universo, ajoelhem aos meus pés!
         </p>
         <a
           className="App-link"
